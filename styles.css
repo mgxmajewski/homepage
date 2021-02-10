@@ -17,6 +17,10 @@ pre.ascii-art
     height: 10em;
     line-height: 1em;
 }
+pre.pre
+{
+    color: #da2e01;
+}
 a.ascii-art:hover
 {
     text-decoration: none;
@@ -46,4 +50,15 @@ nav
 
 a {
     color: #e619c5;
+}
+
+hr
+{
+    color: #38ec38;
+}
+
+article
+{
+    border: 1px dashed #38ec38;
+    margin: 3px;
 }
