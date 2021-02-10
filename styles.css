@@ -1,6 +1,6 @@
 body
 {
-    color: #477CA4;
+    color: #da2e01;
     background-color: #000519;
 }
 
@@ -11,7 +11,7 @@ b
 pre.ascii-art
 {
     color: #38ec38;
-    border: 3px dashed #0088dd;
+    border: 3px dashed #38ec38;
     width: 50em;
     height: 10em;
     line-height: 1em;
@@ -19,4 +19,30 @@ pre.ascii-art
 a.ascii-art:hover
 {
     text-decoration: none;
+}
+
+nav
+{
+    color:  #f70056;
+}
+
+.nav-tabs {
+    border-bottom: 2px dashed #38ec38;
+    width: 44em;
+}
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    color:  #38ec38;
+    border-color: #f70056 #f70056 #f70056;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: #e619c5;
+    background-color: #38ec38;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+a {
+    color: #e619c5;
 }
