@@ -13,5 +13,10 @@ pre.ascii-art
     color: #38ec38;
     border: 3px dashed #0088dd;
     width: 50em;
+    height: 10em;
+    line-height: 1em;
 }
-
+a.ascii-art:hover
+{
+    text-decoration: none;
+}
