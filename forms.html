@@ -50,6 +50,122 @@
             </li>
         </ul>
     </header>
+    <main>
+        <article title="form">
+            <form action="http://www.example.com/subscribe.php"
+                  method="get">
+                <p>form</p>
+            </form>
+        </article>
+        <article>
+            <p>Username:
+                <input type="text" name="username" size="15"
+                       maxlength="30" />
+            </p>
+        </article>
+        <article title="input-password">
+                <form action="http://www.example.com/login.php">
+                    <p>Password:
+                        <input type="password" name="password" size="15"
+                               maxlength="30" />
+                    </p>
+                </form>
+        </article>
+        <article title="input-textarea">
+                <p><textarea name="comments" cols="20" rows="4">Textarea...</textarea>
+                </p>
+        </article>
+        <article>
+            <p>Radio buttons:
+                <br />
+                <input type="radio" name="genre" value="rock"
+                       checked="checked" /> radio button 1
+                <input type="radio" name="genre" value="pop" />
+                radio button 2
+                <input type="radio" name="genre" value="jazz" />
+                radio button 3
+            </p>
+        </article>
+        <article title="checkbox">
+            <p>Checkboxes:
+                <br />
+                <input type="checkbox" name="genre" value="rock"
+                       checked="checked" /> checkbox 1
+                <input type="checkbox" name="genre" value="pop" />
+                checkbox 2
+                <input type="checkbox" name="genre" value="jazz" />
+                checkbox 3
+            </p>
+        </article>
+        <article title="drop-down">
+            <p>drop down</p>
+            <select name="devices">
+                <option value="ipod">drop down 1</option>
+                <option value="radio">drop down 2</option>
+                <option value="computer">drop down 3</option>
+            </select>
+        </article>
+        <article title="multiple-select">
+            <p>multiple select</p>
+            <select name="multiple selects" size="3"
+                    multiple="multiple">
+                <option value="1" selected="selected">
+                    1</option>
+                <option value="2">2</option>
+                <option value="3"
+                        selected="selected">3</option>
+                <option value="4">4</option>
+            </select>
+        </article>
+        <article title="file-input">
+            <p>file input</p>
+            <input type="file" name="user-song" /><br />
+            <input type="submit" value="Upload" />
+        </article>
+        <article title="submit">
+            <p>submit</p>
+            <input type="text" name="email" />
+            <input type="submit" name="submit"
+                   value="submit" />
+        </article>
+        <article title="image">
+            <p>image</p>
+            <input type="text" name="email" />
+            <input type="image" src="img/subscribe.png"
+                   width="100" height="20" />
+        </article>
+        <article title="hidden-hidden-controls">
+            <p>image</p>
+            <button><img src="img/subscribe.png" alt="add"
+                         width="10" height="10" /> Add</button>
+            <input type="hidden" name="name"
+                   value="add" />
+        </article>
+        <article title="labelling-form-controls">
+            <p>labelling form controls</p>
+            <label>text: <input type="text" name="age" /></label>
+            <br/ >
+            Control:
+            <input id="1" type="radio" name="label"
+                   value="1">
+            <label for="1">1</label>
+            <input id="2" type="radio" name="label"
+                   value="2">
+            <label for="2">2</label>
+        </article>
+        <article title="grouping-form-elements">
+            <p>grouping form elements</p>
+            <fieldset>
+                <legend>legend</legend>
+                <label>Email:<br />
+                    <input type="text" name="email" /></label><br />
+                <label>Mobile:<br />
+                    <input type="text" name="mobile" /></label><br />
+                <label>Telephone:<br />
+                    <input type="text" name="telephone" /></label>
+            </fieldset>
+        </article>
+    </main>
 </div>
 </body>
 </html>
